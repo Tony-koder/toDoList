@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>I NEED HELP. I CAN'T BE IN CHARGE OF MY LIFE. I EVEN FORGET TO FEED MYSELF.</h1>
+    </header>
+    <main>
+        <div class="list_wrapper">
+            <form id="to_do_form">
+                <input type="text" id="input_text">
+            </form>
+            <div class="btn_container">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+       
+             <ul id="task_list"></ul>
+             <p id="instruction_text">Click on a task's text to mark it as done!</p>
+        </div>
+    </main>
+</body>
+</html>

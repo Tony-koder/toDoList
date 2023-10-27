@@ -1,0 +1,84 @@
+/* I noticed that colors may be way off what is intended.
+When comparing colors on my laptop screen and monitor there is a very stark contrast.
+So I apologize if it's completely fucked.
+*/
+@font-face {
+    font-family: Halloween;
+    src: url(media/halloween.ttf);
+}
+.list_wrapper {
+    padding-top: 20px;
+    background-color: rgb(31, 196, 160);
+    width: 750px;
+    position: absolute;
+    left: 25%;
+    border-radius: 15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#119da4, #832161);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    
+
+}
+header {
+    font-family: Halloween;
+    font-size: 30px;
+    text-align: center;
+    background-color: #55a630;
+    overflow: auto;
+    margin-bottom: 25px;
+}
+#input_text{
+    border: 0px;
+    border-radius: 7px;
+    background-color: rgb(211, 204, 204);
+    text-align: center;
+    padding: 10px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#to_do_form {
+    text-align: center;
+    
+}
+.btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.btn_container button {
+    background-color: #8d99ae;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.btn_container button:hover {
+    background-color: #342e37;
+    color: whitesmoke;
+}
+
+#task_list  {
+    line-height: 35px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.checked {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+#instruction_text {
+    font-family: Halloween;
+    font-size: 30px;
+    text-align: center;
+}
